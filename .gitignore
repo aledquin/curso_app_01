@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.local
+.turbo/
+.DS_Store
+.idea/
+.vscode/
+*.log
+apps/mobile_flutter/.dart_tool/
+apps/mobile_flutter/build/

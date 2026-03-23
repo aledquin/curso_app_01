@@ -1,0 +1,12 @@
+{
+  "name": "post-scheduler",
+  "private": true,
+  "packageManager": "pnpm@10.32.1",
+  "scripts": {
+    "lint": "pnpm --filter @post-scheduler/contracts lint && pnpm --filter @post-scheduler/api lint",
+    "typecheck": "pnpm --filter @post-scheduler/contracts typecheck && pnpm --filter @post-scheduler/api typecheck",
+    "test": "pnpm --filter @post-scheduler/contracts test && pnpm --filter @post-scheduler/api test",
+    "dev:api": "pnpm --filter @post-scheduler/api dev",
+    "build": "pnpm --filter @post-scheduler/contracts build && pnpm --filter @post-scheduler/api build"
+  }
+}
