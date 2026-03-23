@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="220" viewBox="0 0 940 220">
+  <style>
+    .box { fill: #171a21; stroke: #c9985d; stroke-width: 2; rx: 10; }
+    .text { fill: #f5f5f5; font: 14px sans-serif; }
+    .arrow { stroke: #c9985d; stroke-width: 2; marker-end: url(#arrowHead); }
+    .bg { fill: #0f1115; }
+  </style>
+  <rect class="bg" x="0" y="0" width="940" height="220" />
+  <defs>
+    <marker id="arrowHead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#c9985d" />
+    </marker>
+  </defs>
+
+  <rect class="box" x="20" y="80" width="130" height="60"/>
+  <text class="text" x="85" y="115" text-anchor="middle">Onboarding</text>
+
+  <rect class="box" x="190" y="80" width="150" height="60"/>
+  <text class="text" x="265" y="115" text-anchor="middle">Instagram OAuth</text>
+
+  <rect class="box" x="380" y="80" width="160" height="60"/>
+  <text class="text" x="460" y="108" text-anchor="middle">AI Generate</text>
+  <text class="text" x="460" y="126" text-anchor="middle">Caption/Hashtags</text>
+
+  <rect class="box" x="580" y="80" width="130" height="60"/>
+  <text class="text" x="645" y="108" text-anchor="middle">Queue +</text>
+  <text class="text" x="645" y="126" text-anchor="middle">Scheduler</text>
+
+  <rect class="box" x="750" y="80" width="160" height="60"/>
+  <text class="text" x="830" y="108" text-anchor="middle">Publish to</text>
+  <text class="text" x="830" y="126" text-anchor="middle">Instagram API</text>
+
+  <line class="arrow" x1="150" y1="110" x2="190" y2="110"/>
+  <line class="arrow" x1="340" y1="110" x2="380" y2="110"/>
+  <line class="arrow" x1="540" y1="110" x2="580" y2="110"/>
+  <line class="arrow" x1="710" y1="110" x2="750" y2="110"/>
+</svg>
